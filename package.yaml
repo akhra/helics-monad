@@ -1,0 +1,31 @@
+name:                helics-monad
+version:             0.1.0.0
+#synopsis:
+#description:
+# homepage:            https://github.com/tejon/helics-monad#readme
+license:             ISC
+author:              Theodore Lief Gannon
+maintainer:          tejon@gmail.com
+copyright:           2018 Theodore Lief Gannon
+category:            Web
+
+extra-source-files:
+- README.md
+
+dependencies:
+- base
+- bytestring
+- containers
+- helics
+- lens
+- monad-unlift
+- monad-unlift-ref
+- mtl
+
+library:
+  source-dirs: src
+  exposed-modules:
+  - Network.Helics.Monad
+  - Network.Helics.Monad.Types
+  other-modules:
+  - Network.Helics.Monad.InitOnce

@@ -1,0 +1,10 @@
+resolver: lts-10.1
+
+packages:
+  - .
+
+extra-deps:
+  - bytestring-show-0.3.5.6
+  - helics-0.5.1
+
+allow-newer: true
